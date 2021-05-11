@@ -1,5 +1,7 @@
 <ins>__ASSIGNMENT 2__</ins>
+
 For å besvare ASSIGNMENT 2 har vi tatt utgangspunkt i følgende kildekode: https://github.com/awadalaa/Socket-Programming-Java/tree/master/UDP-Pinger
+
 Både Client og Server begynner først med å importere de relevante Java-bibliotekene, som da er java.net.* for nettverks relaterte funksjoner.
 I serverkoden, setter den opp variablene på linje 10 og 11. Deretter kommer constructoren til serveren. Den krever input som er hvilken port serveren
 skal settes opp på. Hvis den ikke får en port, ender den programmet. Denne koden har noen linjer som handler om å sette opp en falsk forsinkning av meldinger,
@@ -14,5 +16,15 @@ Hvis den får et svar fra serveren, skriver den delayen, og fortsetter loopen. L
 Den gjør dataen om til en leselig sortert string.
 ![Server](https://raw.githubusercontent.com/MariusUIA/Gruppe23-Oppgaver/main/Modul%204/Server.png)
 
+
+.
+
 <ins>__Kapittel 2, Oppgave P12__</ins>
-midlertidig tekst
+
+Denne koden er skrevet i python, og ble kjørt på 64-bit Windows inne i WSL Ubuntu. Nettleseren som ble brukt er Mozilla Firefox.
+Koden bruker python sine "socket" biblioteker for å starte en proxy server.
+I nettleseren, skrev vi inn proxy instillingene for lokalvert og på port 1234. 
+Dette gjorde vi fordi vi kjørte proxyen på samme system som skulle ta den i bruk.
+Proxyen sender GET meldingene til Proxyen. For objekter som er lagret lokalt, ble GET meldinger sendt når nettleseren ville se en tidligere besøkt side.
+
+![Proxy](https://raw.githubusercontent.com/MariusUIA/Gruppe23-Oppgaver/main/Modul%204/Proxy.png)
