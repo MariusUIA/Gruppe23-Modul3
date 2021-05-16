@@ -1,3 +1,19 @@
+Denne mappen inneholder Kapittel2 P12 og Kapittel2 Assignment 2 (under)
+
+
+.
+
+<ins>__Kapittel 2, Oppgave P12__</ins>
+
+Denne koden er skrevet i python, og ble kjørt på 64-bit Windows inne i WSL Ubuntu. Nettleseren som ble brukt er Mozilla Firefox.
+Koden bruker python sine "socket" biblioteker for å starte en proxy server.
+I nettleseren, skrev vi inn proxy instillingene for lokalvert og på port 1234. 
+Dette gjorde vi fordi vi kjørte proxyen på samme system som skulle ta den i bruk.
+Proxyen sender GET meldingene til Proxyen. For objekter som er lagret lokalt, ble GET meldinger sendt når nettleseren ville se en tidligere besøkt side.
+
+![Proxy](https://raw.githubusercontent.com/MariusUIA/Gruppe23-Oppgaver/main/Modul%204/Proxy.png)
+
+
 <ins>__ASSIGNMENT 2__</ins>
 
 For å besvare ASSIGNMENT 2 har vi tatt utgangspunkt i følgende kildekode: https://github.com/awadalaa/Socket-Programming-Java/tree/master/UDP-Pinger
@@ -15,16 +31,3 @@ Denne pingen er en string som er «PING» og så tallet til loopen, og et lengre
 Hvis den får et svar fra serveren, skriver den delayen, og fortsetter loopen. Linjene 75 til 101 er lik som samme kode fra serverkoden. 
 Den gjør dataen om til en leselig sortert string.
 ![Server](https://raw.githubusercontent.com/MariusUIA/Gruppe23-Oppgaver/main/Modul%204/Server.png)
-
-
-.
-
-<ins>__Kapittel 2, Oppgave P12__</ins>
-
-Denne koden er skrevet i python, og ble kjørt på 64-bit Windows inne i WSL Ubuntu. Nettleseren som ble brukt er Mozilla Firefox.
-Koden bruker python sine "socket" biblioteker for å starte en proxy server.
-I nettleseren, skrev vi inn proxy instillingene for lokalvert og på port 1234. 
-Dette gjorde vi fordi vi kjørte proxyen på samme system som skulle ta den i bruk.
-Proxyen sender GET meldingene til Proxyen. For objekter som er lagret lokalt, ble GET meldinger sendt når nettleseren ville se en tidligere besøkt side.
-
-![Proxy](https://raw.githubusercontent.com/MariusUIA/Gruppe23-Oppgaver/main/Modul%204/Proxy.png)
